@@ -8,7 +8,7 @@ export default function Home() {
       <main className="bg-slate-300 w-full h-[100dvh] overflow-x-hidden ">
         <Header />
         {/* section 1 */}
-        <section className="w-full  flex items-stretch justify-between lg:items-end gap-10 lg:flex-col-reverse lg:justify-end lg:gap-5">
+        <section className="w-full flex items-stretch justify-between lg:items-end gap-10 lg:flex-col-reverse lg:justify-end lg:gap-5">
           {/* text */}
           <div className="flex flex-col items-start justify-center lg:items-center ms-[7.5rem] xl:ms-[5rem] w-1/2 lg:w-full lg:text-center ">
             <p className="text-[40px] md:text-[30px] leading-10 font-bold text-[#1B1C57]">
@@ -46,6 +46,60 @@ export default function Home() {
               alt="product img"
               className=" w-full h-full rounded-bl-[80px]"
             />
+          </div>
+        </section>
+        {/* section 5 */}
+        <section className="w-full flex flex-col items-center my-[7rem]">
+          <div className="flex flex-col items-center">
+            <div className="border border-orange-primary w-[32px]"></div>
+            <p className="text-orange-primary">
+              See tips and trick from our partnership
+            </p>
+            <p className="text-[32px] text-center font-bold text-[#1B1C57]">
+              Find out more about <br /> selling and buying homes
+            </p>
+            <button className="bg-[#10B981] text-white px-4 py-3 rounded-[1.3rem] flex items-center gap-1 mt-5">
+              <span>More Artikel</span>
+            </button>
+          </div>
+          <div className="flex items-center gap-16 w-full px-[7.5rem]">
+            <div className="w-1/2 flex flex-col gap-10">
+              {/* card */}
+              <div className="w-full h-[9.25rem] flex items-center gap-8">
+                <Image
+                  src={"/images/products/HP8721-AZ.webp"}
+                  width={200}
+                  height={150}
+                  alt="globe icon"
+                  className="w-[12.5rem] h-[9rem] rounded-2xl"
+                />
+                <div className="flex flex-col gap-3">
+                  <div className="w-full flex items-center gap-4">
+                    <Image
+                      src={"/images/products/HP8721-AZ.webp"}
+                      width={32}
+                      height={32}
+                      alt="globe icon"
+                      className="w-[2rem] h-[2rem] rounded-full"
+                    />
+                    <p className="text-sm text-[#3C4563]">Dianne Russell</p>
+                  </div>
+                  <p className="text-lg">
+                    The things we need to check when we want to buy a house
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <Image
+                      src={"/icons/clock.svg"}
+                      width={24}
+                      height={24}
+                      alt="globe icon"
+                      className="w-[1.5rem] h-[1.5rem]"
+                    />
+                    <p>4 min read | 25 Apr 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         {/* section 6 */}
