@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Header from "./components/modules/Header";
+import Footer from "./components/modules/Footer";
 
 export default function Home() {
   return (
-    <div className="max-w-[1400px] mx-auto">
-      <Header />
+    <div className="max-w-[1400px] mx-auto ">
       <main className="bg-slate-300 w-full h-[100dvh] overflow-x-hidden ">
+        <Header />
         {/* section 1 */}
-        <section className="w-full h-screen flex items-stretch justify-between lg:items-end gap-10 lg:flex-col-reverse lg:justify-end lg:gap-5">
+        <section className="w-full  flex items-stretch justify-between lg:items-end gap-10 lg:flex-col-reverse lg:justify-end lg:gap-5">
           {/* text */}
           <div className="flex flex-col items-start justify-center lg:items-center ms-[7.5rem] xl:ms-[5rem] w-1/2 lg:w-full lg:text-center ">
             <p className="text-[40px] md:text-[30px] leading-10 font-bold text-[#1B1C57]">
@@ -47,8 +48,8 @@ export default function Home() {
             />
           </div>
         </section>
+        <Footer />
       </main>
-      ;
     </div>
   );
 }

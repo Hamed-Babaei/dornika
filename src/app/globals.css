@@ -13,3 +13,7 @@
   color: #ffffff;
   /* برای اینکه فقط outline نمایش داده شود */
 }
+.sorayya-line {
+  background: linear-gradient(90deg, #7B78CC 0%, #6EC4A7 100%);
+
+}
