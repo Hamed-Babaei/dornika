@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'lexend';
+  src: url('/src/app/fonts/Lexend[wght].ttf') format('ttf');
+}
+
+.outline-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1B1C57;
+  color: #ffffff;
+  /* برای اینکه فقط outline نمایش داده شود */
+}

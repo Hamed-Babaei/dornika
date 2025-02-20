@@ -8,10 +8,21 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        '2xl': {'max': '1400px'},
+        'xl': {'max': '1124px'},
+        'lg': {'max': '1024px'}, // Tablet
+        'md': {'max': '768px'},  // Mobile (landscape)
+        'sm': {'max': '640px'},  // Mobile (portrait)
+      },
+      fontFamily: {
+        'lexend': ['lexend'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
     },
   },
   plugins: [],
