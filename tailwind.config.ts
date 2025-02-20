@@ -18,9 +18,27 @@ export default {
       fontFamily: {
         'lexend': ['lexend'],
       },
+      backgroundImage: {
+        subscribeCard : "url(/images/bg.png)"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        green : {
+          primary: '#10B981',
+          secondary : '#D1FAE5'
+        },
+        red : {
+          primary: '#EF4444',
+          secondary : '#FEE2E2'
+        },
+        blue : {
+          primary: '#1D4ED8',
+          secondary : '#DBEAFE'
+        },
+        orange: {
+          primary : '#F59E0B'
+        }
       },
 
     },
