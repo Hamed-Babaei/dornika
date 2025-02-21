@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="w-full max-w-[1400px] mx-auto  px-[4.5rem] fixed top-10">
+    <header className="w-full fixed top-10 start-5 end-5 z-50 max-w-[1400px] mx-auto">
       <div className="flex items-center justify-between">
         {/* end div */}
         <div className="flex items-center gap-2">

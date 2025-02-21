@@ -38,7 +38,11 @@ export default {
         },
         orange: {
           primary : '#F59E0B'
-        }
+        },
+        text : {
+          primary : '#1B1C57',
+          secondary: '#626687'
+        }        
       },
 
     },

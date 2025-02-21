@@ -15,5 +15,44 @@
 }
 .sorayya-line {
   background: linear-gradient(90deg, #7B78CC 0%, #6EC4A7 100%);
+}
+.comment-card-shadow {
+  box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.05);
 
 }
+
+
+                                    /* Custom styles for Swiper */
+
+
+.testimonial-swiper .swiper-slide-custom {
+  transition: all 0.3s ease;
+}
+
+/* .testimonial-swiper .swiper-slide-active .swiper-slide-content {
+  transform: scale(1);
+  opacity: 1;
+} */
+
+@media (max-width: 576px) {
+  .swiper-wrapper {
+    width: 100%;
+  }
+}
+
+
+
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background-color: #1b1c57;
+  opacity: 0.5;
+}
+.swiper-pagination {
+  transform: translateY(0.8rem) !important;
+  z-index: 10 !important;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
